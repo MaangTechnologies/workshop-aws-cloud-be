@@ -307,4 +307,4 @@ async def delete_contact(user: Annotated[str, Depends(get_current_username)],req
             session.close()
 
 if __name__ == "__main__":
-    uvicorn.run(app, host="0.0.0.0", port=8200, log_level="debug")
+    uvicorn.run(app, host="0.0.0.0", port=8211, log_level="debug")
